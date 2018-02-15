@@ -1,0 +1,54 @@
+//@import url('https://fonts.googleapis.com/css?family=VT323');
+$font-color: #fff;
+$font-family: "VT323", monospace;
+$background-color: #772953;//#000;#e95420
+* {
+	background-color: $background-color;
+	color: $font-color;
+	font-family: $font-family;
+	//text-align: center;
+	text-align: left;
+}
+.container {
+	min-width: 500px;
+	margin: 0;
+	text-align: left;
+}
+div div {
+	font-size: 24px;
+    font-weight: bold;
+	display: inline;
+}
+ul {
+	text-align: left;
+	padding: 0;
+	min-height: 80vh;
+	//border: 1px solid white;
+}
+li{
+	list-style: none;
+	//position: relative;
+	font-size: 24px;
+	//font-weight: bold;
+	//padding-left: 100px;
+}
+input {
+	font-size: 24px;
+  font-weight: bold;
+	border: none;
+	//border: 1px solid white;
+	text-align: left;
+	padding: -30px;
+}
+.input {
+	position: relative;
+	padding-left: 125px;
+	&:before {
+		content:"aj@aj:~$";
+		position: absolute;
+		left:0;
+		top:0;
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
